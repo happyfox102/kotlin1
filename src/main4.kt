@@ -43,9 +43,8 @@ class Fraction(private var numerator: Int, private var denominator: Int) {
 
 
 
-
 fun main() {
-    val scanner = Scanner(System.`in)
+    val scanner = Scanner(System.`in`)
 
     print("Введите числитель для дроби 1: ")
     val numerator1 = scanner.nextInt()
